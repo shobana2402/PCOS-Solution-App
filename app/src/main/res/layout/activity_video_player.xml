@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise Video"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/pink"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="2dp"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvDescription"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Do Exercise and Stay Fit. Avoid If the activity seems too rigorous for you, please take a break."-->
+<!--        android:layout_below="@id/tvTitle"-->
+<!--        android:layout_marginTop="35dp"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="2dp"/>-->
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:id="@+id/textViewError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unable to play video"
+        android:textColor="#FF0000"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/closeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink"
+        android:text="Close"
+        android:padding="8dp"
+        android:layout_below="@id/videoView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <MediaController
+        android:id="@+id/media_controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

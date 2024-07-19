@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodMenu">
+
+    <ImageButton
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="60dp"
+        android:background="@color/Transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pic" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="230dp"/>
+
+    <ImageButton
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="60dp"
+        android:background="@color/Transparent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pic23" />
+
+    <ImageButton
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:background="@color/Transparent"
+        android:layout_marginTop="470dp"
+        app:srcCompat="@drawable/pic19" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunch"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="230dp"/>
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dinner"
+        android:textSize="17sp"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="230dp"/>
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Meal Plan"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/black"
+        android:background="@color/white"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorPatientView">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <View
+        android:id="@+id/View1"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:background="@drawable/border2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View5" />
+
+    <View
+        android:id="@+id/View2"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        android:clickable="true"
+        android:background="@drawable/border2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <View
+        android:id="@+id/View3"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        android:background="@drawable/border2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View2" />
+
+    <View
+        android:id="@+id/View4"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:background="@drawable/border2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View3" />
+
+    <View
+        android:id="@+id/View5"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:background="@drawable/border2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View4" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_profile"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/View2"
+        app:layout_constraintEnd_toEndOf="@+id/View2"
+        app:layout_constraintStart_toStartOf="@+id/View2"
+        app:layout_constraintTop_toTopOf="@+id/View2" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_activity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/View3"
+        app:layout_constraintEnd_toEndOf="@+id/View3"
+        app:layout_constraintStart_toStartOf="@+id/View3"
+        app:layout_constraintTop_toTopOf="@+id/View3" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_s_menstrual_calender"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/View4"
+        app:layout_constraintEnd_toEndOf="@+id/View4"
+        app:layout_constraintStart_toStartOf="@+id/View4"
+        app:layout_constraintTop_toTopOf="@+id/View4" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_patient_s_today_progress"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/View5"
+        app:layout_constraintEnd_toEndOf="@+id/View5"
+        app:layout_constraintStart_toStartOf="@+id/View5"
+        app:layout_constraintTop_toTopOf="@+id/View5" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_patient_s_medical_records"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/View1"
+        app:layout_constraintEnd_toEndOf="@+id/View1"
+        app:layout_constraintStart_toStartOf="@+id/View1"
+        app:layout_constraintTop_toTopOf="@+id/View1" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/Transparent"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_delete_24"
+        app:tint="@color/Another" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

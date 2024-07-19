@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#EB7DB2</color>
+    <color name="LightPink">#EB7DB2</color>
+    <color name="lightWhite">#F5F5F5</color>
+    <color name="Another">#FFA2CF</color>
+    <color name="ViewBack">#FFC0DE</color>
+    <color name="BoyBlue">#A0DBFD</color>
+    <color name="Orange">#FEC635</color>
+    <color name="NormalBlue">#3585FE</color>
+    <color name="Purple">#7876F5</color>
+    <color name="Transparent">#00000000</color>
+    <color name="highlight_color">#FFFFFF</color>
+    <color name="progress">#ffc3e5</color>
+    <color name="steps">#70f5fe</color>
+    <color name="pcos_pink">#FFA2CF</color>
+    <color name="darkpink">#B80257</color>
+    <color name="gray">#F5F5F5</color>
+    <color name="light_grap">#d3d3d3</color>
+
+
+
+</resources>
+
+

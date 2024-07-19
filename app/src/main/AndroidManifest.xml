@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PCOS"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".PatientCellActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LeaderboardCellActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientMenstrualCalenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrackShowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseListCellActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddDoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeeklyProgressCellActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeeklyProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientEditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavHeaderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Successful2Activity"
+            android:exported="false" />
+        <activity android:name="Gifloader"
+            android:exported="false"/>
+        <activity
+            android:name=".ProgressScrfeenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientEditProfile"
+            android:windowSoftInputMode="adjustNothing"
+            android:exported="false" />
+        <activity
+            android:name=".TrackView"
+            android:exported="false" />
+        <activity
+            android:name=".UploadReports"
+            android:exported="false" />
+        <activity
+            android:name=".ViewReports"
+            android:exported="false" />
+        <activity
+            android:name=".MedicalReports2"
+            android:exported="false" />
+        <activity
+            android:name=".TodayProgressPatients"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity36"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationMusic"
+            android:exported="false" />
+        <activity
+            android:name=".PatientHome"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorHomepage"
+            android:windowSoftInputMode="adjustNothing"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity33"
+
+            android:exported="false" />
+        <activity
+            android:name=".FoodMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Calender"
+            android:exported="false" />
+        <activity
+            android:name=".MealDescription"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseList"
+            android:exported="false" />
+        <activity
+            android:name=".Video1"
+            android:exported="false" />
+        <activity
+            android:name=".LeaderBoard2"
+            android:exported="false" />
+        <activity
+            android:name=".MedicalReports"
+            android:exported="false" />
+        <activity
+            android:name=".LeaderBoard"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressBar"
+            android:exported="false" />
+        <activity
+            android:name=".TodayProgressDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".PatientProfile"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorPatientView"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessfulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionAndAnswers1"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".EnterDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AddPatients"
+            android:exported="false" />
+        <activity
+            android:name=".PatientLogin"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorLogin"
+            android:exported="false" />
+        <activity
+            android:name=".RollSelection"
+            android:exported="false" />
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:exported="false" />
+        <activity android:name=".FoodListActivity" />
+        <activity android:name=".ImageViewerActivity"/>
+        <activity android:name=".Foodgif"/>
+        <activity android:name=".Track"/>
+
+        <activity
+            android:name=".LaunchScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
